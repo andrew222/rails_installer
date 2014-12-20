@@ -11,3 +11,9 @@ sudo update-alternatives --set editor /usr/bin/vim.basic
 
 # Install Git
 sudo apt-get install -y git-core
+
+# Install rvm
+gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable --rails
+source ~/.rvm/scripts/rvm
+
